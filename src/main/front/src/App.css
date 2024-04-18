@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: auto;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s ease;
+}
+
+.day {
+  background-color: #aeccce; /* Day background color */
+}
+
+.night {
+  background-color: #061633; /* Night background color */
+  color:rgb(160, 189, 228);
+}
+
+.forecastData{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.dataElements {
+  width: 50vw; /* 50% of the viewport width */
+  height: 25vh; /* 25% of the viewport height */
+  font-size: 1vw; /* 2% of the viewport width */
+}
